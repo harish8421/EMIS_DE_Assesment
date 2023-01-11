@@ -1,0 +1,37 @@
+{
+    "resourceType": "Bundle",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "123",
+                "name": [
+                    {
+                        "given": [
+                            "John"
+                        ],
+                        "family": "Doe"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1970-01-01"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "456",
+                "name": [
+                    {
+                        "given": [
+                            "Jane"
+                        ],
+                        "family": "Smith"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1980-01-01"
+            }
+        }
+    ]
+}
